@@ -2393,6 +2393,10 @@ button:active,
         padding: 0 2em 0 2em;
     }
 
+    p{
+        font-size: 20px;
+    }
+
     /* Item */
     .item {
         margin-bottom: 15px;
