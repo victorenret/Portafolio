@@ -35,6 +35,16 @@ body {
     line-height: 1;
 }
 
+img.logros{
+    width: 300px;
+    height: 300px;
+}
+
+img.acercade{
+    width: 600px;
+    height: 300px;
+}
+
 ol, ul {
     list-style: none;
 }
@@ -256,6 +266,11 @@ br.clear {
 
     .container {
         width: 100%;
+    }
+
+    img.acercade{
+        width: 350px;
+        height: 250px;
     }
 
 }
@@ -2254,7 +2269,7 @@ button:active,
     background-image: url("../../images/banner.jpg");
 }
 
-#main > section.two {
+#main > section.two { 
     background-color: #f5fafa;
 }
 
