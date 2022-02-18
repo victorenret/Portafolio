@@ -64,6 +64,15 @@ table {
     border-spacing: 0;
 }
 
+p.descripcionproyectos{
+    padding: 10px;
+}
+
+h3.titulos{
+    font-family: fantasy;
+}
+
+
 body {
     -webkit-text-size-adjust: none;
 }
