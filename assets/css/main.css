@@ -35,14 +35,15 @@ body {
     line-height: 1;
 }
 
-img.logros{
-    width: 300px;
-    height: 300px;
-}
-
 img.acercade{
     width: 600px;
     height: 450px;
+}
+
+header img.logros{
+    margin: auto;
+    width: 200px;
+    height: 200px;
 }
 
 ol, ul {
