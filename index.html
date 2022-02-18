@@ -144,7 +144,7 @@
 
             <header>
                 <h2>Acerca de mi</h2>
-                <a href="#" class="image fit"><img class="acercade" src="images/acercade.jpg" alt=""/></a>
+                <a class="image fit"><img class="acercade" src="images/acercade.jpg" alt=""/></a>
             </header>
 
                 
@@ -208,7 +208,11 @@
     <ul class="copyright">
         <li>Santiago de Chile</li>
         <li>
-            <script src="/assets/js/fechafooter.js"></script>
+            <script>
+                var meses = new Array ("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
+                var f = new Date();
+                document.write(meses[f.getMonth()] + " de " + f.getFullYear());
+            </script>
         </li>
     </ul>
 
