@@ -2194,6 +2194,16 @@ button:active,
     color: #e27689;
 }
 
+#cv{
+    padding: 10px;
+    
+}
+
+#linkedin{
+    padding: 10px;
+    text-align: right;
+}
+
 /* Footer */
 
 #footer {
