@@ -68,6 +68,15 @@ p.descripcionproyectos{
     padding: 10px;
 }
 
+.enlace-github{
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #89b7b5;
+    color: white;
+    border-radius: 10px;
+    padding: 4px;
+}
+
 body {
     -webkit-text-size-adjust: none;
 }
@@ -189,10 +198,10 @@ a {
     -ms-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
     transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
     outline: 0;
+    transition: .4s all;
 }
 
 a:hover {
-    color: #E27689;
     border-bottom-color: rgba(255, 255, 255, 0);
 }
 
